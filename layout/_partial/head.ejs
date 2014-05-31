@@ -45,62 +45,10 @@
 
   <link rel="alternate" href="<% if (theme.rss){ %><%- theme.rss %><% } else { %><%- config.root %>atom.xml<% } %>" title="<%= config.title %>" type="application/atom+xml">
 
-  <!--style>
-    figure.highlight table tbody tr td.code {
-      width: 100%
-    }
-  <% if (theme.widgets.indexOf('category') !== -1 ||
-      theme.widgets.indexOf('tag') !== -1) { %>
-    .list-group {
-      list-style-type: none;
-      padding-left: 10px;
-      /* box-sizing: border-box; */
-    }
-    .list-group-item a {
-      text-transform: capitalize;
-    }
-    .badge {
-      float: right;
-      margin-right: -15px;
-    }
-  <% } %>
-  <% if (theme.footer_color){ %>
-    #footer {
-      background-color: <%-theme.footer_color%>;
-    }
-  <% } %>
-  </style-->
-  <% if (theme.bootstrap_css) { %>
-  <link rel="stylesheet" href="<%-theme.bootstrap_css%>">
-  <% } else { %>
-  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
-  <% } %>
-  <% if (theme.sticky_footer) { %>
-  <!--link rel="stylesheet" href="<%-config.root%>css/sticky_footer.css"-->
-<% } %>
-<% if (theme.highlightjs) { %>
-  <link rel="stylesheet" href="<%-config.root%>css/highlightjs/<%-theme.highlighjs%>.css">
-<% } else { %>
-  <link rel="stylesheet" href="<%-config.root%>css/highlightjs/github.css">
+  <link href="/css/site.css" rel="stylesheet">
+
+<% if (theme.google_plus_id) { %>
+  <a href="https://plus.google.com/<%= theme.google_plus_id %>?rel=author" class="google googleplus-hidden" title="Google+">Google+</a>
 <% } %>
 
-<% if (theme.gravatar) { %>
-    <style>
-      #gravatar_nav {
-        margin-top: 10px;
-        margin-bottom: -17px;
-        margin-right: 10px;
-        background: red;
-        padding: 0;
-         -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-        -khtml-border-radius: 8px;
-        border-radius: 8px;
-        overflow: hidden;
-      }
-      .navbar .brand {
-        padding: 0px 20px 0px;
-      }
-    </style>
-<% }%>
 </head>
