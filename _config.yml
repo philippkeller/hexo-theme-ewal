@@ -1,9 +1,6 @@
 # Site default meta keywords
 #keywords: site, wide, default, keywords
 
-# inverse bootstrap navbar
-#bs_nav_inverse: true
-
 menu:
   Home: /
   About: /about
@@ -20,8 +17,6 @@ widgets:
 # - only tags >= to tag_minium are shown
 tag_minium: 3
 
-excerpt_link: read more
-
 twitter_id:
 facebook_id:
 linkedin_id:
@@ -30,7 +25,7 @@ google_plus_id: 100169331366580286164
 
 addthis:
   enable: true
-  pubid:
+  pubid: ra-5371a9c6342c7855
   twitter: true
   facebook: true
 

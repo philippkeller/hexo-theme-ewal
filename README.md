@@ -1,4 +1,11 @@
-# Hexo: Twitter Bootstrap Theme
+# Hexo: Twitter Bootstrap Theme using LESS
+
+### features of this theme
+
+- ported from the [docpad theme of Erv Walter](https://github.com/ervwalter/ewalnet-docpad)
+- stripped down to bare necessities
+- based on twitter bootstrap using variables ⇒ colors should be very easy to customize
+- addthis support
 
 > ### What is Twitter Bootstap
 >
@@ -15,14 +22,15 @@
 
 ## Note
 
-I would consider this beta. I've tested most elements my liking, but only on Chrome for Linux. It needs further testing before I'll call it done.
+Still under construction
 
 ## Install
 
-Execute the following command and modify `theme` in `_config.yml` to `twbootstrap`.
+Execute the following commands and modify `theme` in `_config.yml` to `ewal`.
 
 ```
-git clone git://github.com/tommy351/hexo-theme-twbootstrap.git themes/twbootstrap
+npm install hexo-renderer-less --save
+git clone git://github.com/philippkeller/hexo-theme-ewal.git themes/ewal
 ```
 
 ## Update
@@ -42,47 +50,10 @@ Default config:
 # Site default meta keywords
 #keywords: site, wide, default, keywords
 
-# path to bootstrap css template if not specified,
-# uses full bootstrap-combined.min.css
-#
-# These free themes are provided by my firends at http://bootstrapcdn.com
-#
-#bootstrap_css: //netdna.bootstrapcdn.com/bootswatch/2.3.2/amelia/bootstrap.min.css
-#bootstrap_css: //netdna.bootstrapcdn.com/bootswatch/2.3.2/cerulean/bootstrap.min.css
-#bootstrap_css: //netdna.bootstrapcdn.com/bootswatch/2.3.2/cosmo/bootstrap.min.css
-#bootstrap_css: //netdna.bootstrapcdn.com/bootswatch/2.3.2/cyborg/bootstrap.min.css
-#bootstrap_css: //netdna.bootstrapcdn.com/bootswatch/2.3.2/flatly/bootstrap.min.css
-#bootstrap_css: //netdna.bootstrapcdn.com/bootswatch/2.3.2/journal/bootstrap.min.css
-#bootstrap_css: //netdna.bootstrapcdn.com/bootswatch/2.3.2/readable/bootstrap.min.css
-#bootstrap_css: //netdna.bootstrapcdn.com/bootswatch/2.3.2/simplex/bootstrap.min.css
-#bootstrap_css: //netdna.bootstrapcdn.com/bootswatch/2.3.2/slate/bootstrap.min.css
-#bootstrap_css: //netdna.bootstrapcdn.com/bootswatch/2.3.2/spacelab/bootstrap.min.css
-#bootstrap_css: //netdna.bootstrapcdn.com/bootswatch/2.3.2/spruce/bootstrap.min.css
-#bootstrap_css: //netdna.bootstrapcdn.com/bootswatch/2.3.2/superhero/bootstrap.min.css
-#bootstrap_css: //netdna.bootstrapcdn.com/bootswatch/2.3.2/united/bootstrap.min.css
-
-# inverse bootstrap navbar
-#bs_nav_inverse: true
-
 # This section turns on javascript components,
 # they're off by default to make things faster.
-#bootstrap_js: true
 #imagesloaded_js: true # gives images a loading icon
 #fancybox: true
-
-# stick footer to page bottom
-sticky_footer: true
-
-# don't use this without sticky_footer
-#footer_color: 'black'
-
-# Include gravatar to left of page title in navbar.
-# It will overflow navbar a bit intentionally.
-#
-# NOTE: this should be considered experimental
-gravatar:
-  # e.g.
-  #gravatar: ed808193b8c2c8516715816f90a005b2 # that's me
 
 menu:
   Home: /
@@ -99,6 +70,7 @@ twitter_id:
 facebook_id:
 linkedin_id:
 github_id:
+google_plus_id:
 
 addthis:
   enable: true
