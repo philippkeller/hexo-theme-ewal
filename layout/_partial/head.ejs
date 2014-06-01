@@ -48,6 +48,10 @@
   <link href="<%- config.root %>css/site.css" rel="stylesheet">
   <meta name="generator" content="Hexo 2.6.0" />
 
+  <% if (page.scripts) { page.scripts.forEach(function(item){ %>
+    <script type="text/javascript" src="<%= item %>"></script>
+  <% })} %>
+
 <% if (theme.google_plus_id) { %>
   <a href="https://plus.google.com/<%= theme.google_plus_id %>?rel=author" class="google googleplus-hidden" title="Google+">Google+</a>
 <% } %>

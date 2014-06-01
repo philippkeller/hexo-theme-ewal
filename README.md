@@ -6,6 +6,8 @@
 - stripped down to bare necessities
 - based on twitter bootstrap using variables ⇒ colors should be very easy to customize
 - addthis support
+- about me as a slick bootstrap carousel
+- custom javascripts per page (add them in YAML front matter with scripts: …)
 
 > ### What is Twitter Bootstap
 >
