@@ -8,8 +8,9 @@ menu:
 
 widgets:
 - search
+- about
 - category
-- tagcloud
+#- tagcloud
 #- recent_posts
 #- tag
 
@@ -28,6 +29,19 @@ addthis:
   pubid: ra-5371a9c6342c7855
   twitter: true
   facebook: true
+
+about:
+  title: Über Philipp Keller
+  content:
+  - image: /images/philipp.jpg
+    image_alt: Philipp
+    description: Ich bin verheiratet und habe 2 Kinder (6 und 3 Jahre alt). Ich habe an der ETH Informatik studiert und arbeite bei local.ch.
+  - image: /images/john-piper.jpg
+    image_alt: John Piper
+    description: "Seit 1998 bin ich Christ, mich begeistert bibeltreue Theologie gepaart mit Begeisterung und Authentizität. Ich bin grosser Fan von <a href=\"http://www.desiringgod.org/\">John Piper</a>"
+  - image: /images/philipp-gitarre.jpg
+    image_alt: Philipp mit Gitarre
+    description: "Ich selber bin Anbetungsleiter in der <a href=\"http://www.pfimi-kloten.ch/\">Pfingstgemeinde Kloten</a>"
 
 google_analytics: UA-53694-9
 rss:

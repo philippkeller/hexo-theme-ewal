@@ -41,11 +41,11 @@
     <meta property="og:image" content="<%= config.cover %>"/>
   <% } %>
 
-  <link href="<%- config.root %>favicon.png" rel="icon">
+  <link href="<%- config.root %>favicon.png" rel="shortcut icon">
 
   <link rel="alternate" href="<% if (theme.rss){ %><%- theme.rss %><% } else { %><%- config.root %>atom.xml<% } %>" title="<%= config.title %>" type="application/atom+xml">
 
-  <link href="/css/site.css" rel="stylesheet">
+  <link href="<%- config.root %>css/site.css" rel="stylesheet">
 
 <% if (theme.google_plus_id) { %>
   <a href="https://plus.google.com/<%= theme.google_plus_id %>?rel=author" class="google googleplus-hidden" title="Google+">Google+</a>
