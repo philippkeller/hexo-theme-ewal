@@ -9,9 +9,11 @@ menu:
 widgets:
 - search
 - about
+- subscribe_mailchimp
+- noteworthy
 - category
-#- tagcloud
 #- recent_posts
+#- tagcloud
 #- tag
 
 # For use with tagcloud or tag widgets
@@ -42,6 +44,27 @@ about:
   - image: /images/philipp-gitarre.jpg
     image_alt: Philipp mit Gitarre
     description: "Ich selber bin Anbetungsleiter in der <a href=\"http://www.pfimi-kloten.ch/\">Pfingstgemeinde Kloten</a>"
+
+noteworthy_title: Beitrags-Reihen
+noteworthy:
+  - url: /bibeln/
+    title: Deutsche Bibelübersetzungen
+  - url: /erziehung/
+    title: Kindererziehung nach Jak 3
+
+# Mailchimp:
+# 
+# to set up mailing over Mailchimp create a campaign based on RSS
+#
+# to get those ids, go to Mailchimp and go to
+# lists -> embedded -> naked
+# see copy/paste onto site:
+
+mailchimp:
+  # inside <form action="…">
+  post_action: "http://pui.us6.list-manage.com/subscribe/post?u=c134a33c36ae108f9ecb22cef&amp;id=322fe6327b"
+  # inside <input type="text" name="…" tabindex="-1" value="">
+  field_name: b_c134a33c36ae108f9ecb22cef_322fe6327b
 
 google_analytics: UA-53694-9
 rss:

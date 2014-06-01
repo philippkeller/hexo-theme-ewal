@@ -3,7 +3,7 @@
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <% theme.about.content.forEach(function(el, i){ %>
-    <li data-target="#carousel-about" data-slide-to="<%= i %>" class="active"></li>
+    <li data-target="#carousel-about" data-slide-to="<%= i %>" <% if (i == 0) { %>class="active" <% } %>></li>
     <% }); %>
   </ol>
 
