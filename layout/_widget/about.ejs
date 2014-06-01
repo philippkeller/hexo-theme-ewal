@@ -9,11 +9,11 @@
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
-    <% theme.about.content.forEach(function(content){ %>
-      <div class="item active">
+    <% theme.about.content.forEach(function(content, index){ %>
+      <div class="item <% if (index == 0) { %>active <% } %>">
         <img src="<%= content.image %>" alt="<%= content.image_alt %>">
         <div class="carousel-caption">
-          <p><%= content.description %></p>
+          <p><%- content.description %></p>
         </div>
       </div>
     <% }); %>
