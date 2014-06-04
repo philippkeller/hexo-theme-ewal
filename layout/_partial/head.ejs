@@ -46,7 +46,8 @@
   <link rel="alternate" href="<% if (theme.rss){ %><%- theme.rss %><% } else { %><%- config.root %>atom.xml<% } %>" title="<%= config.title %>" type="application/atom+xml">
 
   <link href="<%- config.root %>css/site.css" rel="stylesheet">
-  <meta name="generator" content="Hexo 2.6.0" />
+  <script type="text/javascript" src="/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/scripts/site.js"></script>
 
   <% if (page.scripts) { page.scripts.forEach(function(item){ %>
     <script type="text/javascript" src="<%= item %>"></script>
@@ -60,4 +61,5 @@
   <script type="text/javascript">var addthis_config = {"data_track_addressbar":false, "data_track_clickback":false};</script>
   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=<%= theme.addthis.pubid %>"></script>
 <% } %>
+  <meta name="generator" content="Hexo 2.6.0" />
 </head>

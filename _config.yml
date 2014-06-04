@@ -3,8 +3,7 @@
 
 menu:
   Home: /
-  About: /about
-  Archives: /archives
+  Archiv: /archives
 
 widgets:
 - search
@@ -51,6 +50,9 @@ noteworthy:
     title: Deutsche Bibelübersetzungen
   - url: /erziehung/
     title: Kindererziehung nach Jak 3
+
+scripts:
+  - /scripts/site.js
 
 # Mailchimp:
 # 

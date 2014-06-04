@@ -8,6 +8,12 @@
 - addthis support
 - about me as a slick bootstrap carousel
 - custom javascripts per page (add them in YAML front matter with scripts: …)
+- change body class to narrow if bootstrap snaps to small screen mode
+
+### install
+
+    npm install hexo-renderer-coffeescript --save
+    npm install hexo-renderer-less --save
 
 > ### What is Twitter Bootstap
 >
