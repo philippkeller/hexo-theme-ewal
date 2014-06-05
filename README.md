@@ -3,6 +3,7 @@
 ### features of this theme
 
 - ported from the [docpad theme of Erv Walter](https://github.com/ervwalter/ewalnet-docpad)
+- optimized for readability (~70 characters per line, enough margin between body and sidebar)
 - stripped down to bare necessities
 - based on twitter bootstrap using variables ⇒ colors should be very easy to customize
 - addthis support
