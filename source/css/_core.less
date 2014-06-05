@@ -49,22 +49,6 @@ h5 {
     font-weight: 600;
 }
 
-body.narrow {
-    .carousel img {
-        max-width: 300px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-    .item {
-        height: 130px;
-    }
-    .sidebar {
-        margin-top: 1em;
-        border-top: solid 2px #888;
-    }
-}
-
 .sidebar-nav {
     label {
         font-weight: normal;
@@ -84,6 +68,20 @@ body.narrow {
         border: solid 1px #eee;
     }
 
+    @media (max-width: @screen-md) {
+        img {
+            max-width: 300px !important;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+        .item {
+            height: 130px !important;
+        }
+        .carousel-inner {
+            height: 15em !important;
+        }
+    }
     .carousel-indicators {
         bottom: 0 !important;
     }
