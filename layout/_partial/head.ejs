@@ -44,6 +44,12 @@
 
   <link href="<%- config.root %>favicon.png" rel="shortcut icon">
 
+  <% if (theme.highlightjs) { %>
+    <link rel="stylesheet" href="<%-config.root%>css/highlightjs/<%-theme.highlighjs%>.css">
+  <% } else { %>
+    <link rel="stylesheet" href="<%-config.root%>css/highlightjs/github.css">
+  <% } %>
+
   <link rel="alternate" href="<% if (theme.rss){ %><%- theme.rss %><% } else { %><%- config.root %>atom.xml<% } %>" title="<%= config.title %>" type="application/atom+xml">
 
   <link href="<%- config.root %>css/site.css" rel="stylesheet">
@@ -53,7 +59,7 @@
     <script type="text/javascript" src="<%= item %>"></script>
   <% })} %>
 
-<% if (theme.addthis.pubid) { %>
+<% if (theme.addthis && theme.addthis.pubid) { %>
   <script type="text/javascript">var addthis_config = {"data_track_addressbar":false, "data_track_clickback":false};</script>
   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=<%= theme.addthis.pubid %>"></script>
 <% } %>

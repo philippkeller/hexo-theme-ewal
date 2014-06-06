@@ -1,5 +1,7 @@
 # Hexo theme based on Twitter Bootstrap Theme using LESS
 
+See [Philipps blog](http://www.philippkeller.com) for a demo.
+
 ### Features of this theme
 
 - optimized for readability (~70 characters per line, enough margin between body and sidebar)
