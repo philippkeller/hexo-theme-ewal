@@ -1,6 +1,6 @@
 # Hexo theme based on Twitter Bootstrap Theme using LESS
 
-See [Philipps blog](www.philippkeller.com) for a demo.
+See [Philipps blog](http://www.philippkeller.com) for a demo.
 
 ### Features of this theme
 
