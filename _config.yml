@@ -51,9 +51,6 @@ noteworthy:
   - url: /erziehung/
     title: Kindererziehung nach Jak 3
 
-scripts:
-  - /scripts/site.js
-
 # Mailchimp:
 # 
 # to set up mailing over Mailchimp create a campaign based on RSS
