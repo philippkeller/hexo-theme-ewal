@@ -3,17 +3,16 @@
 
 menu:
   Home: /
-  Archiv: /archives
+  Archives: /archives
 
 widgets:
 - search
 - about
-- subscribe_mailchimp
-- noteworthy
 - category
-#- recent_posts
-#- tagcloud
-#- tag
+- tagcloud
+- tag
+#- subscribe_mailchimp
+#- noteworthy
 
 # For use with tagcloud or tag widgets
 # - only tags >= to tag_minium are shown
@@ -23,26 +22,31 @@ twitter_id:
 facebook_id:
 linkedin_id:
 github_id:
-google_plus_id: 100169331366580286164
+google_plus_id: 
 
-addthis:
-  enable: true
-  pubid: ra-5371a9c6342c7855
-  twitter: true
-  facebook: true
+# add "share post to facebook/twitter" buttons to your post
+# you need to get a pubid from addthis to use it
+
+# addthis:
+#   enable: true
+#   pubid: ...
+#   twitter: true
+#   facebook: true
+
+# this is the about section, it apprears top right
 
 about:
-  title: Über Philipp Keller
+  title: About John Doe
   content:
-  - image: /images/philipp.jpg
-    image_alt: Philipp
-    description: Ich bin verheiratet und habe 2 Kinder (6 und 3 Jahre alt). Ich habe an der ETH Informatik studiert und arbeite bei local.ch.
-  - image: /images/john-piper.jpg
-    image_alt: John Piper
-    description: "Seit 1998 bin ich Christ, mich begeistert bibeltreue Theologie gepaart mit Begeisterung und Authentizität. Ich bin grosser Fan von <a href=\"http://www.desiringgod.org/\">John Piper</a>"
-  - image: /images/philipp-gitarre.jpg
-    image_alt: Philipp mit Gitarre
-    description: "Ich selber bin Anbetungsleiter in der <a href=\"http://www.pfimi-kloten.ch/\">Pfingstgemeinde Kloten</a>"
+  - image: http://img.forumfr.com/cafe/20041204_TopicJohnDoe.jpg
+    image_alt: John
+    description: I'm a hacker from Rumania
+  - image: http://blog.appfog.com/wp-content/uploads/2012/09/nodejs-1024x768.png
+    image_alt: Node.js
+    description: I'm particularly interested in node.js
+  - image: http://injuryfix.com/archives/ezine_images/mountain-biking_2.jpg
+    image_alt: Bike
+    description: When I'm not at a computer I like riding a bike
 
 noteworthy_title: Beitrags-Reihen
 noteworthy:
