@@ -43,6 +43,12 @@
 
   <link href="<%- config.root %>favicon.png" rel="shortcut icon">
 
+  <% if (theme.highlightjs) { %>
+    <link rel="stylesheet" href="<%-config.root%>css/highlightjs/<%-theme.highlighjs%>.css">
+  <% } else { %>
+    <link rel="stylesheet" href="<%-config.root%>css/highlightjs/github.css">
+  <% } %>
+
   <link rel="alternate" href="<% if (theme.rss){ %><%- theme.rss %><% } else { %><%- config.root %>atom.xml<% } %>" title="<%= config.title %>" type="application/atom+xml">
 
   <link href="<%- config.root %>css/site.css" rel="stylesheet">
