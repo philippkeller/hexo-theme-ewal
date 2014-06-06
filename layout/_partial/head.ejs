@@ -26,11 +26,12 @@
   <meta name="description" content="<%= strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150) %>">
   <% } %>
   <% if (page.keywords){ %>
-  <meta name="keywords" content="<%= page.keywords %>">
+  <meta name="keywords" content="<%= page.keywords %>"/>
   <% } else if (config.keywords) { %>
-  <meta name="keywords" content="<%= page.config %>">
+  <meta name="keywords" content="<%= page.config %>"/>
   <% } %>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="generator" content="Hexo 2.6.0"/>
 
   <% if (page.title){ %><meta property="og:title" content="<%= page.title %>"/><% } %>
   <meta property="og:site_name" content="<%= config.title %>"/>
@@ -52,13 +53,8 @@
     <script type="text/javascript" src="<%= item %>"></script>
   <% })} %>
 
-<% if (theme.google_plus_id) { %>
-  <a href="https://plus.google.com/<%= theme.google_plus_id %>?rel=author" class="google googleplus-hidden" title="Google+">Google+</a>
-<% } %>
-
 <% if (theme.addthis.pubid) { %>
   <script type="text/javascript">var addthis_config = {"data_track_addressbar":false, "data_track_clickback":false};</script>
   <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=<%= theme.addthis.pubid %>"></script>
 <% } %>
-  <meta name="generator" content="Hexo 2.6.0" />
 </head>
