@@ -11,6 +11,7 @@ See [Philipps blog](http://www.philippkeller.com) for a demo.
 - addthis support
 - about me is a slick bootstrap carousel
 - custom javascripts per page (add them in YAML front matter with scripts: …)
+- captionjs: if you add `class="caption"` to an image then it gets an automated caption beneath
 
 ### custom javascript per page
 

@@ -53,7 +53,10 @@
   <link rel="alternate" href="<% if (theme.rss){ %><%- theme.rss %><% } else { %><%- config.root %>atom.xml<% } %>" title="<%= config.title %>" type="application/atom+xml">
 
   <link href="<%- config.root %>css/site.css" rel="stylesheet">
-  <script type="text/javascript" src="/js/jquery.min.js"></script>
+  <script type="text/javascript" src="<%- config.root %>js/jquery.min.js"></script>
+  <script type="text/javascript" src="<%- config.root %>js/jquery.caption.min.js"></script>
+  <link href="<%- config.root %>css/captionjs.min.css" rel="stylesheet"/>
+  <script type="text/javascript" src="<%- config.root %>js/ewal.js"></script>
 
   <% if (page.scripts) { page.scripts.forEach(function(item){ %>
     <script type="text/javascript" src="<%= item %>"></script>

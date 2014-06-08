@@ -66,11 +66,38 @@
 }
 
 .post-content {
+  .captionjs { 
+    float: right;
+    padding-left: 1em;
+    figcaption {
+      margin: 0 0 20px;
+      padding: 0;
+    }
+    figcaption {
+      font-size: 13px;
+      line-height: 1.5;
+      padding: 10px 15px;
+      border: 1px solid #ddd;
+      border-top: none;
+      background-color: #eee;
+    }
+    &.stacked figcaption {
+      background-color: rgba(0, 0, 0, 0.75);
+      color: #fff;
+      border: none;
+    }
+    img {
+      padding-left: 0;
+    }
+  }
+
   img {
     float: right;
     padding-left: 1em;
     padding-bottom: 1em;
+
   }
+
 }
 
 .post + .post {
