@@ -5,6 +5,11 @@ menu:
   Home: /
   Archives: /archives
 
+highlight:
+  style: solarized_dark
+  enable: true
+  line_number: true
+
 widgets:
 - search
 - about

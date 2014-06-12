@@ -44,8 +44,8 @@
 
   <link href="<%- config.root %>favicon.png" rel="shortcut icon">
 
-  <% if (theme.highlightjs) { %>
-    <link rel="stylesheet" href="<%-config.root%>css/highlightjs/<%-theme.highlighjs%>.css">
+  <% if (theme.highlight.style) { %>
+    <link rel="stylesheet" href="<%-config.root%>css/highlightjs/<%- theme.highlight.style %>.css">
   <% } else { %>
     <link rel="stylesheet" href="<%-config.root%>css/highlightjs/github.css">
   <% } %>
