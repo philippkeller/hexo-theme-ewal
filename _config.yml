@@ -40,7 +40,7 @@ about:
   content:
   - image: http://img.forumfr.com/cafe/20041204_TopicJohnDoe.jpg
     image_alt: John
-    description: I'm a hacker from Rumania
+    description: I'm a hacker from around the world
   - image: http://blog.appfog.com/wp-content/uploads/2012/09/nodejs-1024x768.png
     image_alt: Node.js
     description: I'm particularly interested in node.js
@@ -48,12 +48,10 @@ about:
     image_alt: Bike
     description: When I'm not at a computer I like riding a bike
 
-noteworthy_title: Beitrags-Reihen
+noteworthy_title:
 noteworthy:
-  - url: /bibeln/
-    title: Deutsche Bibelübersetzungen
-  - url: /erziehung/
-    title: Kindererziehung nach Jak 3
+#  - url: /bibeln/
+#    title: Deutsche Bibelübersetzungen
 
 # Mailchimp:
 # 
@@ -65,11 +63,11 @@ noteworthy:
 
 mailchimp:
   # inside <form action="…">
-  post_action: "http://pui.us6.list-manage.com/subscribe/post?u=c134a33c36ae108f9ecb22cef&amp;id=322fe6327b"
+  post_action:
   # inside <input type="text" name="…" tabindex="-1" value="">
-  field_name: b_c134a33c36ae108f9ecb22cef_322fe6327b
+  field_name:
 
-google_analytics: UA-53694-9
+google_analytics:
 rss:
 
-disqus_shortname: philippkeller
+disqus_shortname:
