@@ -12,12 +12,16 @@ highlight:
 
 widgets:
 - search
-- about
 - category
 - tagcloud
 - tag
+#- about
 #- subscribe_mailchimp
 #- noteworthy
+
+marked:
+  gfm: true
+  tables: true
 
 # For use with tagcloud or tag widgets
 # - only tags >= to tag_minium are shown
@@ -41,17 +45,11 @@ google_plus_id:
 # this is the about section, it apprears top right
 
 about:
-  title: About John Doe
+  title: About Dennis
   content:
-  - image: http://img.forumfr.com/cafe/20041204_TopicJohnDoe.jpg
-    image_alt: John
-    description: I'm a hacker from around the world
-  - image: http://blog.appfog.com/wp-content/uploads/2012/09/nodejs-1024x768.png
-    image_alt: Node.js
-    description: I'm particularly interested in node.js
-  - image: http://injuryfix.com/archives/ezine_images/mountain-biking_2.jpg
-    image_alt: Bike
-    description: When I'm not at a computer I like riding a bike
+    #  - image: http://img.forumfr.com/cafe/20041204_TopicJohnDoe.jpg
+    #    image_alt: John
+    #    description: I'm a hacker from around the world
 
 noteworthy_title:
 noteworthy:
