@@ -1,4 +1,4 @@
-# Hexo theme based on Twitter Bootstrap Theme using LESS
+# Hexo theme based on twitter bootstrap
 
 See [Philipps blog](http://www.philippkeller.com) for a demo.
 
@@ -25,14 +25,14 @@ scripts:
 
 ### install
 
-    npm install hexo-renderer-less --save
-	git clone git://github.com/philippkeller/hexo-theme-ewal.git themes/ewal
+  npm install hexo-renderer-less --save
+  git clone git://github.com/philippkeller/hexo-theme-ewal.git themes/ewal
 
 ## Update
 
 Execute the following command to update:
 
 ```
-cd themes/twbootstrap
+cd themes/ewal
 git pull
 ```
