@@ -1,11 +1,11 @@
 <form action="//google.com/search" method="get" accept-charset="utf-8">
+  <input type="hidden" name="q" value="site:<%- config.url.replace(/^https?:\/\//, '') %>">
   <div class="input-group">
     <input class="form-control" id="searchbox" name="q" placeholder="<%= __('search') %>">
     <span class="input-group-btn">
       <button class="btn btn-default" type="submit">
-      	<span class="glyphicon glyphicon-search"></span> 
+        <span class="glyphicon glyphicon-search"></span> 
       </button>
     </span>
-    <input type="hidden" name="q" value="site:<%- config.url.replace(/^https?:\/\//, '') %>">
   </div>
 </form>
