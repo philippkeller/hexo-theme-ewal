@@ -45,16 +45,24 @@ google_plus_id:
 # this is the about section, it apprears top right
 
 about:
-  title: About Dennis
+  title: About John Doe
   content:
-    #  - image: http://img.forumfr.com/cafe/20041204_TopicJohnDoe.jpg
-    #    image_alt: John
-    #    description: I'm a hacker from around the world
+  - image: http://img.forumfr.com/cafe/20041204_TopicJohnDoe.jpg
+    image_alt: John
+    description: I'm a hacker from Rumania
+  - image: http://blog.appfog.com/wp-content/uploads/2012/09/nodejs-1024x768.png
+    image_alt: Node.js
+    description: I'm particularly interested in node.js
+  - image: http://injuryfix.com/archives/ezine_images/mountain-biking_2.jpg
+    image_alt: Bike
+    description: When I'm not at a computer I like riding a bike
 
-noteworthy_title:
+noteworthy_title: Best blog posts
 noteworthy:
-#  - url: /bibeln/
-#    title: Deutsche Bibelübersetzungen
+  - url: /my/best/post1/
+    title: Switching from PHP to node.js
+  - url: /my/best/post2/
+    title: node.js performance tuning
 
 # Mailchimp:
 # 
@@ -66,11 +74,10 @@ noteworthy:
 
 mailchimp:
   # inside <form action="…">
-  post_action:
+  post_action: ""
   # inside <input type="text" name="…" tabindex="-1" value="">
-  field_name:
+  field_name: 
 
-google_analytics:
-rss:
+google_analytics: 
 
-disqus_shortname:
+disqus_shortname: 
