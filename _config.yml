@@ -48,12 +48,12 @@ about:
     image_alt: Bike
     description: When I'm not at a computer I like riding a bike
 
-noteworthy_title: Beitrags-Reihen
+noteworthy_title: Best blog posts
 noteworthy:
-  - url: /bibeln/
-    title: Deutsche Bibelübersetzungen
-  - url: /erziehung/
-    title: Kindererziehung nach Jak 3
+  - url: /my/best/post1/
+    title: Switching from PHP to node.js
+  - url: /my/best/post2/
+    title: node.js performance tuning
 
 # Mailchimp:
 # 
@@ -65,11 +65,10 @@ noteworthy:
 
 mailchimp:
   # inside <form action="…">
-  post_action: "http://pui.us6.list-manage.com/subscribe/post?u=c134a33c36ae108f9ecb22cef&amp;id=322fe6327b"
+  post_action: ""
   # inside <input type="text" name="…" tabindex="-1" value="">
-  field_name: b_c134a33c36ae108f9ecb22cef_322fe6327b
+  field_name: 
 
-google_analytics: UA-53694-9
-rss:
+google_analytics: 
 
-disqus_shortname: philippkeller
+disqus_shortname: 
