@@ -30,5 +30,21 @@
     <%- partial('post/tag') %>
   <% } %>
   <%- partial('post/addthis') %>
+  <% if (!index) { %>
+    <ul class="next_prev">
+      <% if (page.next) { %>
+        <li class="prev">
+        <a class="btn btn-success" role="button" href="<%-  config.root %><%- page.next.path %>">
+          Vorheriger Beitrag
+        </a></li>
+      <% } %>
+      <% if (page.prev) { %>
+        <li class="next">
+        <a class="btn btn-success" role="button" href="<%- config.root %><%- page.prev.path %>">
+          Nächster Beitrag
+        </a></li>
+      <% } %>
+    </ul>
+  <% } %>
   <%- partial('comment') %>
 </article>
