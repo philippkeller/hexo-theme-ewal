@@ -1,6 +1,6 @@
 # Hexo theme based on twitter bootstrap
 
-See [Philipps blog](http://www.philippkeller.com) for a demo.
+See [Philipps blog](http://www.philippkeller.com/2014/06/06/in-eigener-sache-blog-redesign/?source=hexo) for a demo.
 
 ### Features of this theme
 
