@@ -25,8 +25,10 @@ scripts:
 
 ### install
 
-  npm install hexo-renderer-less --save
-  git clone git://github.com/philippkeller/hexo-theme-ewal.git themes/ewal
+```
+npm install hexo-renderer-less --save
+git clone git@github.com/philippkeller/hexo-theme-ewal.git themes/ewal
+```
 
 ## Update
 
