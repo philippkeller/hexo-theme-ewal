@@ -6,7 +6,7 @@ Orginal Style from ethanschoonover.com/solarized (c) Jeremy Hull <sourdrums@gmai
 
 pre code {
   display: block; padding: 0.5em;
-  background: #002b36; color: #839496;
+  background: #fdf6e3; color: #657b83;
 }
 
 pre .comment,
@@ -16,7 +16,7 @@ pre .doctype,
 pre .pi,
 pre .lisp .string,
 pre .javadoc {
-  color: #586e75;
+  color: #93a1a1;
   font-style: italic;
 }
 
@@ -87,5 +87,5 @@ pre .deletion {
 }
 
 pre .tex .formula {
-  background: #073642;
+  background: #eee8d5;
 }

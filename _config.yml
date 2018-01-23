@@ -6,9 +6,7 @@ menu:
   Archives: /archives
 
 highlight:
-  style: solarized_dark
-  enable: true
-  line_number: true
+  enable: false
 
 widgets:
 - search

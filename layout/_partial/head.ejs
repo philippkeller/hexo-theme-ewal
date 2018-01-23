@@ -44,11 +44,13 @@
 
   <link href="<%- config.root %>favicon.png" rel="shortcut icon">
 
-  <% if (theme.highlight.style) { %>
-    <link rel="stylesheet" href="<%-config.root%>css/highlightjs/<%- theme.highlight.style %>.css">
+  <% if (theme.highlightjs) { %>
+    <link rel="stylesheet" href="<%-config.root%>css/highlightjs/<%- theme.highlightjs %>.css">
   <% } else { %>
     <link rel="stylesheet" href="<%-config.root%>css/highlightjs/github.css">
   <% } %>
+  <script src="<%-config.root%>js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 
   <link rel="alternate" href="<% if (theme.rss){ %><%- theme.rss %><% } else { %><%- config.root %>atom.xml<% } %>" title="<%= config.title %>" type="application/atom+xml">
 
