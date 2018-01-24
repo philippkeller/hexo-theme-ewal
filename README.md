@@ -8,6 +8,7 @@ See [Philipps blog](http://www.philippkeller.com/2014/06/06/in-eigener-sache-blo
 - done for offline writing: all css and js files are part of the theme, the blog looks the same online as offline
 - ported from the [docpad theme of Erv Walter](https://github.com/ervwalter/ewalnet-docpad)
 - based on twitter bootstrap using LESS and variables.css ⇒ colors should be very easy to customize
+- highlightjs support
 - addthis support
 - about me is a slick bootstrap carousel
 - custom javascripts per page (add them in YAML front matter with scripts: …)
