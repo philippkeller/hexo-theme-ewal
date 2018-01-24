@@ -1,9 +1,9 @@
 <article class="post">
   <% if (item.layout != 'page'){ %>
+    <%- partial('post/title') %>
     <div class="post-date">
       <time datetime="<%= item.date.toDate().toISOString() %>"><%= item.date.format(config.date_format) %></time>
     </div>
-    <%- partial('post/title') %>
   <% } %>
   <div class="post-content">
     <% if (item.excerpt && index){ %>

@@ -63,6 +63,15 @@
   <% if (page.scripts) { page.scripts.forEach(function(item){ %>
     <script type="text/javascript" src="<%= item %>"></script>
   <% })} %>
+  <% if (page.css) { %>
+  <style>
+    <% page.css.forEach(function(item){ %>
+      <%- item %>
+    <% }) %>
+  </style>
+  <% } %>
+
+
 
 <% if (theme.addthis && theme.addthis.pubid) { %>
   <script type="text/javascript">var addthis_config = {"data_track_addressbar":false, "data_track_clickback":false};</script>
